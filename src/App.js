@@ -5,7 +5,15 @@ function App() {
   return (
     <div className="App">
       <DatePicker />
-      <p>good guy</p>
+      <Row gutter={[16, 8]}>
+        <Col span={8} />
+        <Col span={8} />
+        <Col span={8} />
+
+        <Col span={8} />
+        <Col span={8} />
+        <Col span={8} />
+      </Row>
     </div>
   );
 }
